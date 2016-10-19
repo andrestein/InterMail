@@ -12,9 +12,9 @@ namespace InterMail
 {
     public partial class BandejaEntrada : Form
     {
-        public BandejaEntrada()
+        public BandejaEntrada(string user)
         {
-            InitializeComponent();
+            InitializeComponent(user);
         }
 
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)

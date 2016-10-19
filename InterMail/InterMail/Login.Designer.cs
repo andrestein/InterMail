@@ -96,12 +96,13 @@
             // 
             this.txtPass.Location = new System.Drawing.Point(56, 182);
             this.txtPass.Name = "txtPass";
+            this.txtPass.PasswordChar = '*';
             this.txtPass.Size = new System.Drawing.Size(405, 20);
             this.txtPass.TabIndex = 2;
-            this.txtPass.PasswordChar = '*';
             // 
             // Login
             // 
+            this.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(516, 353);
@@ -114,6 +115,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Login";
             this.Text = "Intern E-Mail";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Login_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

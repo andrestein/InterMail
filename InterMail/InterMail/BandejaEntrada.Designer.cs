@@ -26,7 +26,7 @@
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent()
+        private void InitializeComponent(string user)
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
@@ -110,6 +110,7 @@
             this.lbMostrarNombre.Location = new System.Drawing.Point(53, 13);
             this.lbMostrarNombre.Name = "lbMostrarNombre";
             this.lbMostrarNombre.Size = new System.Drawing.Size(0, 13);
+            this.lbMostrarNombre.Text= user;
             this.lbMostrarNombre.TabIndex = 2;
             // 
             // btnRecargar
