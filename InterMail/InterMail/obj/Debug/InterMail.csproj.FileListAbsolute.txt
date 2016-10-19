@@ -7,3 +7,15 @@ C:\Users\LENOVO\Documents\Visual Studio 2012\Projects\InterMail\InterMail\bin\De
 C:\Users\LENOVO\Documents\Visual Studio 2012\Projects\InterMail\InterMail\bin\Debug\InterMail.pdb
 C:\Users\LENOVO\Documents\Visual Studio 2012\Projects\InterMail\InterMail\obj\Debug\InterMail.exe
 C:\Users\LENOVO\Documents\Visual Studio 2012\Projects\InterMail\InterMail\obj\Debug\InterMail.pdb
+C:\Users\b14s114e15\Desktop\InterMail-master\InterMail\InterMail\bin\Debug\InterMail.exe.config
+C:\Users\b14s114e15\Desktop\InterMail-master\InterMail\InterMail\obj\Debug\InterMail.exe
+C:\Users\b14s114e15\Desktop\InterMail-master\InterMail\InterMail\obj\Debug\InterMail.pdb
+C:\Users\b14s114e15\Desktop\InterMail-master\InterMail\InterMail\bin\Debug\InterMail.exe
+C:\Users\b14s114e15\Desktop\InterMail-master\InterMail\InterMail\bin\Debug\InterMail.pdb
+C:\Users\b14s114e15\Desktop\InterMail-master\InterMail\InterMail\obj\Debug\InterMail.csprojResolveAssemblyReference.cache
+C:\Users\b14s114e15\Desktop\InterMail-master\InterMail\InterMail\obj\Debug\InterMail.Login.resources
+C:\Users\b14s114e15\Desktop\InterMail-master\InterMail\InterMail\obj\Debug\InterMail.Properties.Resources.resources
+C:\Users\b14s114e15\Desktop\InterMail-master\InterMail\InterMail\obj\Debug\InterMail.csproj.GenerateResource.Cache
+C:\Users\b14s114e15\Desktop\CorreoInterno\InterMail\InterMail\bin\Debug\InterMail.exe.config
+C:\Users\b14s114e15\Desktop\CorreoInterno\InterMail\InterMail\obj\Debug\InterMail.exe
+C:\Users\b14s114e15\Desktop\CorreoInterno\InterMail\InterMail\obj\Debug\InterMail.pdb

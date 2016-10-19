@@ -45,6 +45,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BandejaEntrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BandejaEntrada.Designer.cs">
+      <DependentUpon>BandejaEntrada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BD.cs" />
+    <Compile Include="CrearCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrearCuenta.Designer.cs">
+      <DependentUpon>CrearCuenta.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>

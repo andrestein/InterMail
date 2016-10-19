@@ -30,11 +30,11 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.txtUsuario = new System.Windows.Forms.TextBox();
-            this.txtPass = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btnInicio = new System.Windows.Forms.Button();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.label3 = new System.Windows.Forms.Label();
+            this.txtPass = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -52,13 +52,6 @@
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(405, 20);
             this.txtUsuario.TabIndex = 1;
-            // 
-            // txtPass
-            // 
-            this.txtPass.Location = new System.Drawing.Point(56, 182);
-            this.txtPass.Name = "txtPass";
-            this.txtPass.Size = new System.Drawing.Size(405, 20);
-            this.txtPass.TabIndex = 2;
             // 
             // label2
             // 
@@ -99,7 +92,15 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "Si no tienes una cuenta creala precionando click";
             // 
-            // Form1
+            // txtPass
+            // 
+            this.txtPass.Location = new System.Drawing.Point(56, 182);
+            this.txtPass.Name = "txtPass";
+            this.txtPass.Size = new System.Drawing.Size(405, 20);
+            this.txtPass.TabIndex = 2;
+            this.txtPass.PasswordChar = '*';
+            // 
+            // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -111,7 +112,7 @@
             this.Controls.Add(this.txtPass);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "Login";
             this.Text = "Intern E-Mail";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -122,10 +123,10 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtUsuario;
-        private System.Windows.Forms.TextBox txtPass;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnInicio;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtPass;
     }
 }

@@ -15,10 +15,7 @@ namespace InterMail
 {
     public partial class Login : Form
     {
-        OracleConnection conn = new OracleConnection("Data Source=XE;Persist Security Info=True;User ID=system;Password=andres27041997;Unicode=True");
-        DataSet ds;
-        string SQL;
-
+        private BD bd = new BD();
         public Login()
         {
             InitializeComponent();
@@ -37,21 +34,13 @@ namespace InterMail
                 string pass;                
                 if(txtUsuario.Text != "" && txtPass.Text != "")
                 {
-                    user=txtUsuario.Text;
-                    pass=txtPass.Text;
-                    SQL= "Select * from USUARIO WHERE USERNAME='" + user
-                    + "' and PASS='" + pass + "';";
-                    OracleDataAdapter data = new OracleDataAdapter(SQL, conn);
-                    ds = new DataSet("USUARIO");
-                    data.Fill(ds);                    
-                    if (ds.Tables.Count != 0)
+                    user=txtUsuario.Text.ToUpper();
+                    pass=txtPass.Text.ToUpper();
+
+                    if (bd.Buscar(user, pass))
                     {
-                        MessageBox.Show("Existe el usuario");
-                    }
-                    else
-                    {
-                        MessageBox.Show("Datos invalidos");
-                    }                              
+                        
+                    }  
                 }                
             }
             catch
